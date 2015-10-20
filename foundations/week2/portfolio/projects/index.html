@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Laurand's Portfolio</title>
+  </head>
+  
+  <body>
+    <header>
+      <!-- here site logo name, main nav -->
+      <h1>Laurand Osmeni</h1>
+      <nav>
+        <ul>
+          <li><a href="../index.html">About Me</a> </li>
+          <li><a href="#">My Projects</a> </li>
+        </ul>
+      </nav>
+    </header>
+    
+    <article>
+      <!-- here headline, main article, images -->
+      <h2>Welcome to my projects.</h2>
+      <p>This is a HTML5 project, created on October 2015, it's part of home work which was requested by the teacher.</p>
+      <p>When i create HTML5 pages i make sure all semantic tags are set properly, and then i submit the file for my weekly assignment.</p>
+    </article>
+    
+    <aside>
+      <!-- here project info -->
+      <h4>HTML5 Audio Tag!</h4>
+      <img src="../images/stereo.jpg" alt="Stereo Image">
+      <p>This is my second class project to check out my other projects, please follow the links at the bottom of the page.</p>
+      <p>At this time i want to share with all of you some of my favorite stuffs which will work for all browsers, i will create a simple HTML5 audio player.</p>
+      <p>If you need help creating your own audio player page please do not hesitate to contact me, i will be very happy to help.</p>
+      <p>Some of the browsers do not support the same audio file, so we have to work on different file formats for the audio element by using mp3, wav, ogg.</p>
+      <p>Here is the sample code of HTML5 audio tag:</p>
+      <pre>
+      <code>
+      &lt;audio controls autoplay&gt;
+        source src="music.ogg" type="audio/ogg"
+        source src="music.mp3" type="audio/mpeg"
+        source src="music.wav" type="audio/wav"
+      &lt;/audio&gt;
+      </code>
+      </pre>
+      <p>I have linked three audio types as mp3 wav and ogg, so each browser can automatically find the supported file.</p>
+      <audio controls>
+        <source src="../audio/green_ducks.mp3" type="audio/mpeg">
+        <source src="../audio/green_ducks.ogg" type="audio/ogg">
+        <source src="../audio/green_ducks.wav" type="audio/wav">
+        This message is to inform, your browsers does not support the audio element.
+      </audio>
+      <p>Please see the table below showing browsers supporting HTML5 audio, i have already tested on my browsers 6 media types, as mp3, ogg, wav, m3u, aac and pls.</p>
+      <p><b>Note:</b> m3u aac and pls are formats playing continuously audio stream.</p>
+      <table>
+        <tr>
+          <th>Browser</th>
+          <th>MP3</th>
+          <th>WAV</th>
+          <th>OGG</th>
+          <th>M3U</th>
+          <th>PLS</th>
+          <th>AAC</th>
+        </tr>
+        <tr>
+          <td>Chrome</td>
+          <td>YES</td>
+          <td>YES</td>
+          <td>YES</td>
+          <td>NO</td>
+          <td>NO</td>
+          <td>NO</td>
+        </tr>
+        <tr>
+          <td>Safari</td>
+          <td>YES</td>
+          <td>YES</td>
+          <td>NO</td>
+          <td>YES</td>
+          <td>YES</td>
+          <td>YES</td>
+        </tr>
+        <tr>
+          <td>Firefox</td>
+          <td>YES</td>
+          <td>YES</td>
+          <td>YES</td>
+          <td>NO</td>
+          <td>NO</td>
+          <td>NO</td>
+        </tr>
+        <tr>
+          <td>Opera</td>
+          <td>YES</td>
+          <td>YES</td>
+          <td>YES</td>
+          <td>NO</td>
+          <td>NO</td>
+          <td>NO</td>
+        </tr>
+        <tr>
+          <td>IE</td>
+          <td>YES</td>
+          <td>NO</td>
+          <td>NO</td>
+          <td>NO</td>
+          <td>NO</td>
+          <td>NO</td>
+        </tr>
+      </table>
+      <p>View my project list:</p>
+      <ol>
+        <li><a href="https://github.com/Laurand/SemanticTags">SemanticTags</a></li>
+        <li><a href="https://github.com/Laurand/portfolio">Portfolio</a></li>
+        <li><a href="https://github.com/Laurand/duck_example">Duck Example</a></li>
+        <li><a href="https://github.com/Laurand/git_test">Git Test</a></li>
+      </ol>
+    </aside>
+    
+    <footer>
+      <!-- here terms of use, contact, privacy -->
+      <p>&copy; 2015 Laurand Osmeni | 
+        <a href="mailto:contact@example.com">Contact Me</a>
+      </p>
+    </footer>
+  </body>
+</html>
