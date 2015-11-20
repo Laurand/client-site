@@ -1,0 +1,64 @@
+body {
+  background-color: crimson;
+}
+header img {
+  width: 80%;
+}
+header {
+  background-color: limegreen;
+  color:white;
+  text-align: center;
+  padding: 1px;
+}
+nav {
+  line-height: 50px;
+  background-color: skyblue;
+  height: 550px;
+  width: 130px;
+  float: left;
+  padding: 5px;
+}
+h2 {
+  color: azure;
+}
+h3 {
+  color: aqua;
+}
+p::first-letter {
+  color: greenyellow;
+}
+p {
+  color: aliceblue;
+}
+a {
+  text-decoration: underline;
+}
+a:unvisited {
+  color: white;
+}
+a:visited {
+  color: antiquewhite;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: magenta;
+}
+article {
+  width: 350px;
+  float: left;
+  padding: 4px;
+}
+aside {
+  width: auto;
+  float: center;
+  padding: 4px;
+}
+footer {
+  background-color: deepskyblue;
+  color: white;
+  clear: both;
+  text-align: center;
+  padding: 5px;
+}
