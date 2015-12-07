@@ -33,14 +33,11 @@ p {
 a {
   text-decoration: underline;
 }
-a:unvisited {
-  color: white;
-}
 a:visited {
   color: antiquewhite;
 }
 a:hover {
-  color: red;
+  color: deeppink;
 }
 a:active {
   color: magenta;
