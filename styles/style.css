@@ -1,6 +1,6 @@
 body {
   width: 100%;
-  background-color: indianred;
+  background-image: url(../resources/bg.jpg);
   background-position: center;
   background-repeat: repeat;
   margin: 0px;
